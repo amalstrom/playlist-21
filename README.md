@@ -69,26 +69,26 @@ In this unit, coders will create a Playlist. The Playlist will display a list of
 
 ### Day 4 Goal 1: Refactor your arrays so all your song information is stored in Objects
 
-- [ ] Comment out your arrays
-- [ ] Create an Object for each of your songs
-- [ ] Inside each Object, add key/value pairs to store the title, artist, song length, image, and link
-- [ ] Store all your Objects in one array
+- [x] Comment out your arrays
+- [x] Create an Object for each of your songs
+- [x] Inside each Object, add key/value pairs to store the title, artist, song length, image, and link
+- [x] Store all your Objects in one array
 
 #### Wrap
 
-- [ ] Push your changes!
+- [x] Push your changes!
 
 ## Day 5
 
 ### Day 5 Goal 1: Refactor your loops so all your song information displays correctly on the page
 
-- [ ] Update your click handler so the input values are saved in as values in a new Object
-- [ ] Update your `.push()` so the input Object is added to your array of Objects
-- [ ] Update your loops based on your new array of Objects
+- [x] Update your click handler so the input values are saved in as values in a new Object
+- [x] Update your `.push()` so the input Object is added to your array of Objects
+- [x] Update your loops based on your new array of Objects
 
 #### Wrap
 
-- [ ] Push your changes!
+- [x] Push your changes!
 
 ## Project Extensions:
 

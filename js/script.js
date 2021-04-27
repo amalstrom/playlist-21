@@ -14,7 +14,7 @@ let songLinks = [
 ];
 
 function appendInfoToColumn(infoList, columnSelector) {
-  infoList.forEach(function(itemInfo) {
+  for (let itemInfo of infoList) {
     let output = "";
     
     if (columnSelector === ".column.images") {
@@ -26,7 +26,7 @@ function appendInfoToColumn(infoList, columnSelector) {
     }
     
     $(columnSelector).append(output);
-  });
+  }
 }
 
 function displaySongInfo() {
@@ -38,10 +38,6 @@ function displaySongInfo() {
 }
 
 function emptySongInfo() {
-  /* this function empties the divs each time the button is 
-  clicked so that your playlist does not repeatedly add the data
-  too many times. Try commenting out this function call to see 
-  what happens without it! */
   $(".songs").empty();
   $(".images").empty();
   $(".artists").empty();
@@ -50,13 +46,35 @@ function emptySongInfo() {
 }
 
 function addSongInfo() {
-  // Complete Day 3 goals inside this function
+  let inputSongName = $(".song").val();
+  songNames.push(inputSongName);
+  
+  let inputSongArtist = $(".artist").val();
+  songArtists.push(inputSongArtist);
+  
+  let inputSongLength = $(".length").val();
+  songLengths.push(inputSongLength);
+  
+  let inputSongImage = $(".image").val();
+  songImages.push(inputSongImage);
+  
+  let inputSongLink = $(".link").val();
+  songLinks.push(inputSongLink);
+}
+
+function emptyInputFields() {
+  $(".song").val("")
+  $(".artist").val("")
+  $(".length").val("")
+  $(".image").val("")
+  $(".link").val("")
 }
 
 $("#add").click(function () {
   emptySongInfo();
   addSongInfo();
   displaySongInfo();
+  emptyInputFields();
 });
 
 displaySongInfo();

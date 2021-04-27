@@ -33,37 +33,37 @@ In this unit, coders will create a Playlist. The Playlist will display a list of
 
 #### Wrap
 
-- [ ] Push your changes!
+- [x] Push your changes!
 
 ## Day 2
 
 ### Day 2 Goal 1: Write the code to display your song titles on the page
 
-- [ ] Create a loop that loops through your song name array and displays your song names in the correct div
+- [x] Create a loop that loops through your song name array and displays your song names in the correct div
 
 ### Day 2 Goal 2: Write the code to display the rest of your song information
 
-- [ ] Create loops that loop through your song artists, song lengths, images, and links arrays and display the information in the correct divs.
+- [x] Create loops that loop through your song artists, song lengths, images, and links arrays and display the information in the correct divs.
 
 #### Wrap
 
-- [ ] Push your changes!
+- [x] Push your changes!
 
 ## Day 3
 
 ### Day 3 Goal 1: Write the code to allow users to add additional songs to your playlist
 
-- [ ] Declare a variable and save the value of the user input with class `song`
-- [ ] Use `.push()` to add the value to your song name array.
+- [x] Declare a variable and save the value of the user input with class `song`
+- [x] Use `.push()` to add the value to your song name array.
 
 ### Day 3 Goal 2: Write the code to allow users to add additional song information to your playlist
 
-- [ ] Declare additional variables and save the values of each input tag
-- [ ] Use `.push()` to add each input value to the correct array
+- [x] Declare additional variables and save the values of each input tag
+- [x] Use `.push()` to add each input value to the correct array
 
 #### Wrap
 
-- [ ] Push your changes!
+- [x] Push your changes!
 
 ## Day 4
 
